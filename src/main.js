@@ -1,10 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import './plugins/ant-design-vue'
+import Vue from 'vue';
+import VCharts from 'v-charts';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import './plugins/ant-design-vue';
 
-Vue.config.productionTip = false
+
+Vue.use(VCharts);
+Vue.config.productionTip = false;
 
 new Vue({
   router,
